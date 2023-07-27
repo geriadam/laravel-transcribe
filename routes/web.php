@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('privacy-policy', function () {
+    return view('static.privacy');
+});
+Route::get('imprint', function () {
+    return view('static.imprint');
+});
