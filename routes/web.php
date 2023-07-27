@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\GitHubLoginController;
+use App\Http\Controllers\LogoutController;
+use App\Http\Controllers\NewTranscriptionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,4 +25,12 @@ Route::get('privacy-policy', function () {
 });
 Route::get('imprint', function () {
     return view('static.imprint');
+});
+
+Route::get('logout', LogoutController::class);
+Route::get('login', [GitHubLoginController::class, 'redirect'])->name('login');
+Route::get('auth/callback', [GitHubLoginController::class, 'callback']);
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('transcribe', NewTranscriptionController::class);
 });
