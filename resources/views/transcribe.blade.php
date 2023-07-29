@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="max-w-7xl mx-auto p-4 my-24" xmlns="http://www.w3.org/1999/html">
-        <div class="mx-auto max-w-2xl md:text-center">
+    <div class="max-w-7xl mx-auto p-4 my-24 ">
+        <div class="mx-auto max-w-2xl md:text-center bg-white rounded-xl shadow sm:p-7 dark:bg-slate-900">
             <h2
                 class="font-display text-3xl tracking-tight text-slate-900 sm:text-5xl">
                 Transcribe your audio.

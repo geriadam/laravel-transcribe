@@ -34,5 +34,104 @@
         </div>
         <!-- End Buttons -->
     </div>
+    <section class="py-10 bg-white sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div class="max-w-2xl mx-auto text-center">
+                <h4 class="text-3xl font-bold leading-tight text-black sm:text-xl lg:text-3xl">Frequently Asked Questions</h2>
+                <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Frequently Asked Questions (FAQ) - TranscribeAudio</p>
+            </div>
+
+            <div class="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
+                <div class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+                    <button type="button" onclick="toggleCollapse(this)" class="flex items-center justify-between w-full px-4 py-5 sm:p-6 collapseIcon">
+                        <span class="flex text-lg font-semibold text-black"> 1. What is audio file transcription? </span>
+                        <svg class="w-6 h-6 text-gray-400 rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+
+                    <div class="px-4 pb-5 sm:px-6 sm:pb-6">
+                        <p>Audio file transcription is the process of converting spoken language from an audio file into written text. It involves listening to the audio and typing out the spoken content verbatim, capturing both the spoken words and any relevant non-verbal sounds or cues.</p>
+                    </div>
+                </div>
+
+                <div class="transition-all duration-200 bg-white border border-gray-200 cursor-pointer hover:bg-gray-50">
+                    <button type="button" onclick="toggleCollapse(this)" class="flex items-center justify-between w-full px-4 py-5 sm:p-6 collapseIcon">
+                        <span class="flex text-lg font-semibold text-black"> 2. Why do I need audio file transcription? </span>
+
+                        <svg class="w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+
+                    <div class="hidden px-4 pb-5 sm:px-6 sm:pb-6 collapseContent">
+                        <p>Transcribing audio files can be useful for various purposes, such as creating accurate written records of interviews, meetings, podcasts, lectures, or any other spoken content. It facilitates easier content analysis, translation, and accessibility for individuals with hearing impairments.</p>
+                    </div>
+                </div>
+
+                <div class="transition-all duration-200 bg-white border border-gray-200 cursor-pointer hover:bg-gray-50">
+                    <div class="">
+                        <button type="button" onclick="toggleCollapse(this)" class="flex items-center justify-between w-full px-4 py-5 sm:p-6 collapseIcon">
+                            <span class="flex text-lg font-semibold text-black"> 3. How accurate are audio file transcriptions? </span>
+
+                            <svg class="w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+
+                        <div class="hidden px-4 pb-5 sm:px-6 sm:pb-6 collapseContent">
+                            <p>The accuracy of audio file transcriptions depends on several factors, including the quality of the audio recording, the clarity of the speakers' voices, and the proficiency of the transcription service or individual transcriber. Professional transcription services typically aim for high accuracy rates, often using specialized software to enhance the quality of the transcription.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transition-all duration-200 bg-white border border-gray-200 cursor-pointer hover:bg-gray-50">
+                    <button type="button" onclick="toggleCollapse(this)" class="flex items-center justify-between w-full px-4 py-5 sm:p-6 collapseIcon">
+                        <span class="flex text-lg font-semibold text-black"> 4. What is audio file translation? </span>
+
+                        <svg class="w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+
+                    <div class="hidden px-4 pb-5 sm:px-6 sm:pb-6 collapseContent">
+                        <p>Audio file translation involves translating the transcribed text from one language to another. It is the process of conveying the meaning of spoken content in one language into written content in a different language.</p>
+                    </div>
+                </div>
+
+                <div class="transition-all duration-200 bg-white border border-gray-200 cursor-pointer hover:bg-gray-50">
+                    <button type="button" onclick="toggleCollapse(this)" class="flex items-center justify-between w-full px-4 py-5 sm:p-6 collapseIcon">
+                        <span class="flex text-lg font-semibold text-black"> 5. Can I use automatic translation tools for audio file translation? </span>
+
+                        <svg class="w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+
+                    <div class="hidden px-4 pb-5 sm:px-6 sm:pb-6 collapseContent">
+                        <p>Yes, there are automatic translation tools available that can help with audio file translation. However, the accuracy of automatic translation may vary depending on the complexity of the language and the context of the audio. For critical translations, it's often best to rely on human translators, especially for important documents, legal matters, or business communications.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-gray-600 textbase mt-9">Didn’t find the answer you are looking for? <a href="mailto:geriadam04@gmail.com" title="" class="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline">Contact our support</a></p>
+        </div>
+    </section>
+
 </div>
+<script>
+  function toggleCollapse(button) {
+
+    const content = button.nextElementSibling;
+
+    if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        const icon = button.querySelector('svg');
+        icon.classList.add('rotate-180');
+    } else {
+        content.classList.add('hidden');
+        const icon = button.querySelector('svg');
+        icon.classList.remove('rotate-180');
+    }
+  }
+</script>
 @endsection

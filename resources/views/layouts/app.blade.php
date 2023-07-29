@@ -13,8 +13,8 @@
     <meta property="og:site_name" content="TranscribeAudio">
     <meta property="og:title" content="TranscribeAudio">
     <meta property="og:description" content="Effortless Audio Transcriptions - Unlock Clarity Today!">
-    <meta property="og:image" content="https://writeout.ai/og-image.png">
-    <meta name="twitter:image" content="https://writeout.ai/og-image.png">
+    <meta property="og:image" content="{{ asset('og-image.png') }}">
+    <meta name="twitter:image" content="{{ asset('og-image.png') }}">
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900|lexend:400,500"
@@ -51,10 +51,10 @@
         </nav>
     </div>
 </header>
-<main>
+<main class="bg-slate-50">
     @yield('content')
 </main>
-<footer class="bg-slate-50">
+<footer>
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div
             class="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">

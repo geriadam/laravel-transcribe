@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="max-w-7xl mx-auto my-24 w-full p-4">
+    <div class="max-w-7xl mx-auto my-24 w-full bg-white rounded-xl shadow p-4 sm:p-7 dark:bg-slate-900">
         @if ($transcript->isPending() || $transcript->isTranscribing())
             <div class="mx-auto max-w-2xl md:text-center w-full">
                 <h2
