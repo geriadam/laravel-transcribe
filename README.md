@@ -20,6 +20,8 @@ Before running the TranscribeAudio project, ensure you have the following depend
 - Node.js and npm
 - MySQL or any other compatible database system
 - OpenAI API key (sign up on OpenAI's website to obtain the API key)
+- Github ClientId and ClientSecret
+- SendStack Token
 
 ## Installation
 
